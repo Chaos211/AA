@@ -2,25 +2,25 @@ var I = prompt("What's your feeling?");
 var Y = "fuck up";
 if (I == null) {
 	alert("Are you fucking kidding me?");
-	window.close();
+	window.stop();
 }
 if (I != Y && I!=null){
 	alert("Fading away");
-	window.close();
+	window.stop();
 }
 if (I == Y){
     alert("Maybe we should let this go");
 	var A = confirm("We falling apart still we hold together");
 	if (A == false){
 		alert("Blow somke right through the window");
-		window.close();
+		window.stop();
 	}
 	if (A == true){
 		var B = prompt("Cause this is all we know");
 		var Z = "All we know";
 		if (B != Z){
 			alert("Ride your bike up to the road");
-			window.close();
+			window.stop();
 		}
 	}
 }
