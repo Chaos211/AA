@@ -44,7 +44,7 @@ function PP(){
 	var Placeholder = document.createElement("img");
 	var A = document.getElementById("text");
 	Placeholder.setAttribute("id","Placeholder");
-	Placeholder.setAttribute("src","images/Placeholder.jpg");
+	Placeholder.setAttribute("src","Placeholder.jpg");
 	Placeholder.setAttribute("alt","This is my wife");
 	Placeholder.setAttribute("width","50%");
 	Placeholder.setAttribute("height","50%");
