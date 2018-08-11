@@ -2,8 +2,9 @@ var I = prompt("What's your feeling?");
 var Y = "fuck up";
 if (I == null) {
 	alert("Are you fucking kidding me?");
+	window.close();
 }
-if (I != Y){
+if (I != Y && I!=null){
 	alert("Fading away");
 	window.close();
 }
